@@ -1,4 +1,4 @@
-package devafatekgps
+package devafatekresult
 
 import "encoding/json"
 
