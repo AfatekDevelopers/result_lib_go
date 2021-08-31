@@ -14,7 +14,7 @@ func (res ResultType) ToByte() []byte {
 	return jData
 }
 
-//ToString
+//ToString Get JSON
 func (res ResultType) ToString() string {
 	return string(res.ToByte())
 }
