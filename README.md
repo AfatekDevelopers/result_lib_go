@@ -1,25 +1,17 @@
 # gps_lib_go
 
-Go dili için gps kütüphanesi
+Go dili için result kütüphanesi
 
 ## Kurulum:
 
 ```shell
-go get "github.com/AfatekDevelopers/gps_lib_go/devafatekgps"
+go get "github.com/AfatekDevelopers/gps_lib_go/devafatekresult"
 ```
 
 ## Kullanım:
 
 ```go
-gps, err := devafatekgps.ParseGpsLine(scanner.Text())
-if err == nil {
-	if gps.GetFixQuality() == "1" || gps.GetFixQuality() == "2" {
-		latitude, _ := gps.GetLatitude()
-		longitude, _ := gps.GetLongitude()
-	} else {
-		fmt.Println("gps verisi bulunamadı")
-	}
-}
+
 ```
 
 ## Geliştirici Bilgileri:

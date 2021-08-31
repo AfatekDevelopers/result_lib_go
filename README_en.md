@@ -1,25 +1,17 @@
 # ping_lib_go
 
-Gps library for Go
+Result library for Go
 
 ## Installation:
 
 ```shell
-go get "github.com/AfatekDevelopers/gps_lib_go/devafatekgps"
+go get "github.com/AfatekDevelopers/gps_lib_go/devafatekresult"
 ```
 
 ## Usage:
 
 ```go
-gps, err := devafatekgps.ParseGpsLine(scanner.Text())
-if err == nil {
-	if gps.GetFixQuality() == "1" || gps.GetFixQuality() == "2" {
-		latitude, _ := gps.GetLatitude()
-		longitude, _ := gps.GetLongitude()
-	} else {
-		fmt.Println("no gps fix available")
-	}
-}
+
 ```
 
 ## Developers:
