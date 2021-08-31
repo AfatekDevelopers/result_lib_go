@@ -1,14 +1,14 @@
-# gps_lib_go
+# ping_lib_go
 
-Go dili için gps kütüphanesi
+Gps library for Go
 
-## Kurulum:
+## Installation:
 
 ```shell
 go get "github.com/AfatekDevelopers/gps_lib_go/devafatekgps"
 ```
 
-## Kullanım:
+## Usage:
 
 ```go
 gps, err := devafatekgps.ParseGpsLine(scanner.Text())
@@ -17,12 +17,12 @@ if err == nil {
 		latitude, _ := gps.GetLatitude()
 		longitude, _ := gps.GetLongitude()
 	} else {
-		fmt.Println("gps verisi bulunamadı")
+		fmt.Println("no gps fix available")
 	}
 }
 ```
 
-## Geliştirici Bilgileri:
+## Developers:
 <img src="https://github.com/AfatekDevelopers/companyfiles/blob/master/afatek-logo.png?raw=true" width="200"/>
 Web Site        : www.afatek.com.tr <br />
 Developer Groups : https://t.me/Afatek/ <br />
