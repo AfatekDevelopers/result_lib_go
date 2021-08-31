@@ -5,7 +5,7 @@ Go dili için result kütüphanesi
 ## Kurulum:
 
 ```shell
-go get "github.com/AfatekDevelopers/gps_lib_go/devafatekresult"
+go get "github.com/AfatekDevelopers/result_lib_go/devafatekresult"
 ```
 
 ## Kullanım:

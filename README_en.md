@@ -5,7 +5,7 @@ Result library for Go
 ## Installation:
 
 ```shell
-go get "github.com/AfatekDevelopers/gps_lib_go/devafatekresult"
+go get "github.com/AfatekDevelopers/result_lib_go/devafatekresult"
 ```
 
 ## Usage:
