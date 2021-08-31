@@ -1,0 +1,1 @@
+# result_lib_go
