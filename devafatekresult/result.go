@@ -18,3 +18,15 @@ func (res ResultType) ToByte() []byte {
 func (res ResultType) ToString() string {
 	return string(res.ToByte())
 }
+
+//ByteToResultType
+func ByteToResultType(retByte []byte) ResultType {
+	var retVal ResultType
+	json.Unmarshal(retByte, &retVal)
+	return retVal
+}
+
+//StringToResultType
+func StringToResultType(retStr string) ResultType {
+	return ByteToResultType([]byte(retStr))
+}
