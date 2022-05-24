@@ -1,4 +1,4 @@
-package devafatekresult
+package devhsmtekresult
 
 import "encoding/json"
 

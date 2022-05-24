@@ -5,7 +5,7 @@ Result library for Go
 ## Installation:
 
 ```shell
-go get "github.com/AfatekDevelopers/result_lib_go/devafatekresult"
+go get "github.com/HsmTeknoloji/result_lib_go/devhsmtekresult"
 ```
 
 ## Usage:
@@ -15,6 +15,6 @@ go get "github.com/AfatekDevelopers/result_lib_go/devafatekresult"
 ```
 
 ## Developers:
-<img src="https://github.com/AfatekDevelopers/companyfiles/blob/master/afatek-logo.png?raw=true" width="200"/>
-Web Site        : www.afatek.com.tr <br />
-Developer Groups : https://t.me/Afatek/ <br />
+<img src="https://github.com/HsmTeknoloji/companyfiles/blob/master/hsmtek-logo.png?raw=true" width="200"/>
+Web Site        : www.hsmteknoloji.com <br />
+Developer Groups : https://t.me/HsmTeknoloji/ <br />
